@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace жЕСТЬ
 {
-    internal class mebelLIST
+    public enum mebelTovarGroup
     {
+        office = 0,
+        home,
+        minimalistic,
+        design,
+        wood,
     }
 }

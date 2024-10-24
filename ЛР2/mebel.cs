@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace жЕСТЬ
 {
-    internal class mebel
+    public class mebel
     {
+        string mebelname;
+        double mebelvalue;
+
+        public void getnames(string n)
+        {
+            mebelname = n;
+        }
+        public string getvaluestring()
+        {
+            return mebelname;
+        }
+        public void Setvalue(double v)
+        {
+            v = mebelvalue;
+        }
+        public mebel(string NAMESS, double PRICEE)
+        {
+            mebelname = NAMESS;
+            mebelvalue = PRICEE;
+        }
     }
 }

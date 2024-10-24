@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace жЕСТЬ
 {
-    internal class History_of_selling
+    public struct Sales
     {
+        public int quantity;
+        public int datе;
+        public mebel product;
+    }
+    internal class History
+
+    {
+        // Да.... Не все поймут.... Не много осталось таких.... Да.... RoflanPominki
     }
 }
